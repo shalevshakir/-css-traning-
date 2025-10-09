@@ -1,0 +1,229 @@
+
+
+#prod-overview {
+    font-size: large;
+    font-family: "Playwrite HU", cursive;
+    font-weight: 400;
+    width: 100%;
+    padding: 10px;
+    background-origin: border-box;
+    background-clip: border-box;
+    background: linear-gradient(to top, rgba(230, 216, 142, 0.6)10%, transparent), url(/image_3.png) center center /cover no-repeat fixed border-box;
+    height: 50vh;
+
+    position: relative;
+
+    /* background-size:  cover;
+    background-repeat: no-repeat;
+    background-position:left top ;
+    background-attachment: fixed ; */
+
+
+}
+
+#prod-overview h1 {
+    margin: 0px;
+    position: absolute;
+    bottom: 7%;
+    left: 1%;
+    color: white;
+
+
+}
+
+.section_title {
+    text-align: center;
+    color: bisque;
+
+}
+
+
+#plans {
+    /* text-align: center; */
+    margin: auto;
+    width: 100%;
+}
+
+.plan_list {
+    width:80%;
+    margin: auto;
+    
+}
+
+.plan {
+    background-color: #212121;
+    color: bisque;
+    display: inline-block;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    width: 30%;
+    vertical-align: middle;
+}
+
+
+
+.plan-highlighted {
+    background-color: #494949;
+    color: #ded4d4;
+    box-shadow: 3.5px 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.plan_title {
+    color: rgb(160, 160, 155);
+}
+
+.plan-highlighted>.plan_title {
+    color: bisque;
+}
+
+.plan_price {
+    color: rgb(252, 252, 252);
+}
+
+
+.plan-subtitle {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 4px;
+    box-shadow: 4px 4px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.plan>ul>li {
+    list-style: none;
+    margin: 8px 0px;
+
+}
+
+.plan>ul {
+    border: solid 2px;
+    border-radius: 10px;
+
+    text-align: center;
+    padding: 0px;
+}
+
+.plan>div>button {
+    background-color: #ffe4c4;
+    border-radius: 7px;
+    border: none;
+    font: inherit;
+    font-weight: bold;
+    padding: 3px;
+    cursor: pointer;
+
+
+}
+
+.plan>div>button:hover,
+.plan>div>button:active {
+    background-color: rgb(112, 105, 105);
+    color: #ffe4c4;
+
+
+}
+
+.plan>div>button:focus {
+    outline: none;
+}
+
+
+#key-features {
+    background-color: #212121;
+    margin-top: 80px;
+    padding-bottom: 22px;
+
+}
+
+#key-features>.section_title {
+
+    margin: 32px;
+    padding-top: 20px;
+}
+
+.key-features-ul {
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+}
+
+.key-feature {
+    display: inline-block;
+    list-style: none;
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-feature-image {
+    background-color: gold;
+    width: 128px;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 128px;
+    margin: auto;
+    padding: 20px;
+}
+
+.feature-desc {
+    color: #ded4d4;
+    font-weight: bold;
+}
+
+.modal {
+  position: fixed;
+  display: none;
+  z-index: 200;
+  top: 40%;
+  left: 30%;
+  width: 40%;
+  background:  rgba(0, 0, 0, 0.842);
+  padding: 1rem;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px rgba(245, 222, 179, 0.753);
+  border-radius: 20px;
+}
+
+.modal__title {
+    color: white;
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.modal__actions {
+  text-align: center;
+}
+
+.modal__action {
+  border: 2px solid #fcdab2;
+  background: #f5c48b;
+  border-radius: 7px;
+  text-decoration: none;
+  color: white;
+  font: inherit;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: #212121;
+  font-weight: 900;
+  font-size: 1.3rem;
+
+}
+
+.modal__action:hover,
+.modal__action:active {
+  background: #f3d1a9;
+  border-color: #ffffff;
+}
+
+.modal__action--negative {
+  background: #707070;
+  border-color: #707070;
+}
+
+.modal__action--negative:hover,
+.modal__action--negative:active {
+  background: #797777;
+  border-color: #ffffff;
+}

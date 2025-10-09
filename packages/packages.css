@@ -1,0 +1,111 @@
+main {
+    padding-top: 2rem;
+}
+
+.page_background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/plans-background.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: -2;
+    filter: grayscale(40%);
+
+
+}
+
+.package {
+    border: 2px solid white;
+    width: 80%;
+    margin-top: 32px;
+    border-left: none;
+    position: relative;
+
+
+}
+
+#package1 {
+    background-color: rgba(33, 33, 33, 0.8);
+
+}
+
+
+
+.plus-badge {
+    position: absolute;
+    right: 3%;
+    top:0;
+    color: white;
+    background-color: rgba(255, 228, 196,0.5);
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 12px;
+    
+
+}
+
+
+
+#package2 {
+    background-color: rgba(73, 73, 73, 0.8);
+    float: right;
+    border-left: white solid 2px;
+    border-right: none;
+
+}
+
+#package2:hover,
+#package2:active {
+    border-left: 2px solid wheat;
+    box-shadow: -6px 2px 20px 5px rgba(255, 255, 255, 0.8)
+}
+
+.del_space {
+    clear: both;
+}
+
+#package3 {
+    background-color: rgba(33, 33, 33, 0.8);
+
+}
+
+
+.package-header {
+    text-align: left;
+    margin-left: 5%;
+    color: bisque;
+}
+
+.package-sub-header {
+    text-align: left;
+    margin-left: 5%;
+    color: white
+}
+
+.package-desc {
+    border: solid 2px black;
+    padding: 1.2rem;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 1.1rem;
+
+    background-color: bisque;
+    color: black;
+}
+
+.package>a {
+    display: block;
+    text-decoration: none;
+    color: bisque;
+    
+
+}
+
+.package:hover,
+.package:active {
+    border: 2px solid wheat;
+    border-left: none;
+    box-shadow: 6px 2px 20px 5px rgba(255, 255, 255, 0.747)
+}

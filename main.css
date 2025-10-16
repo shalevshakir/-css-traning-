@@ -1,5 +1,3 @@
-
-
 #prod-overview {
     font-size: large;
     font-family: "Playwrite HU", cursive;
@@ -8,15 +6,15 @@
     padding: 10px;
     background-origin: border-box;
     background-clip: border-box;
-    background: linear-gradient(to top, rgba(230, 216, 142, 0.6)10%, transparent), url(/image_3.png) center center /cover no-repeat fixed border-box;
+    background: linear-gradient(to top, rgba(230, 216, 142, 0.6)10%, transparent), url(/image_3.png) center center/cover no-repeat border-box;
     height: 50vh;
 
     position: relative;
 
     /* background-size:  cover;
     background-repeat: no-repeat;
-    background-position:left top ;
     background-attachment: fixed ; */
+
 
 
 }
@@ -27,38 +25,34 @@
     bottom: 7%;
     left: 1%;
     color: white;
+    font-size: 1.8rem;
 
 
 }
 
-.section_title {
-    text-align: center;
-    color: bisque;
 
-}
+
 
 
 #plans {
     /* text-align: center; */
-    margin: auto;
     width: 100%;
 }
 
 .plan_list {
-    width:80%;
-    margin: auto;
-    
+    width: 100%;
+    text-align: center;
+
 }
 
 .plan {
     background-color: #212121;
     color: bisque;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
     padding: 16px;
-    margin: 8px;
-    width: 30%;
-    vertical-align: middle;
+    margin: 0.5rem 0;
+    width: 100%;
 }
 
 
@@ -66,7 +60,6 @@
 .plan-highlighted {
     background-color: #494949;
     color: #ded4d4;
-    box-shadow: 3.5px 2px 2px 2px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -140,21 +133,33 @@
 
 #key-features>.section_title {
 
-    margin: 32px;
+    margin: 32px 0;
     padding-top: 20px;
+    font-size: 1.3rem;
+}
+
+.section_title {
+    text-align: center;
+}
+
+h1.section_title {
+    color: #f3d1a9;
 }
 
 .key-features-ul {
     padding: 0px;
     text-align: center;
     margin: 0px;
+
+
 }
 
 .key-feature {
-    display: inline-block;
+    display: block;
     list-style: none;
-    width: 30%;
-    vertical-align: top;
+
+
+
 }
 
 .key-feature-image {
@@ -170,60 +175,106 @@
 .feature-desc {
     color: #ded4d4;
     font-weight: bold;
+    display: inline;
 }
 
 .modal {
-  position: fixed;
-  display: none;
-  z-index: 200;
-  top: 40%;
-  left: 30%;
-  width: 40%;
-  background:  rgba(0, 0, 0, 0.842);
-  padding: 1rem;
-  border: 1px solid #ccc;
-  box-shadow: 1px 1px 1px rgba(245, 222, 179, 0.753);
-  border-radius: 20px;
+    position: fixed;
+    display: none;
+    z-index: 200;
+    top: 40%;
+    left: 30%;
+    width: 40%;
+    background: rgba(0, 0, 0, 0.842);
+    padding: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px rgba(245, 222, 179, 0.753);
+    border-radius: 20px;
 }
 
 .modal__title {
     color: white;
-  text-align: center;
-  margin: 0 0 1rem 0;
+    text-align: center;
+    margin: 0 0 1rem 0;
 }
 
 .modal__actions {
-  text-align: center;
+    text-align: center;
 }
 
 .modal__action {
-  border: 2px solid #fcdab2;
-  background: #f5c48b;
-  border-radius: 7px;
-  text-decoration: none;
-  color: white;
-  font: inherit;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  color: #212121;
-  font-weight: 900;
-  font-size: 1.3rem;
+    border: 2px solid #fcdab2;
+    background: #f5c48b;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    font: inherit;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: #212121;
+    font-weight: 900;
+    font-size: 1.3rem;
 
 }
 
 .modal__action:hover,
 .modal__action:active {
-  background: #f3d1a9;
-  border-color: #ffffff;
+    background: #f3d1a9;
+    border-color: #ffffff;
 }
 
 .modal__action--negative {
-  background: #707070;
-  border-color: #707070;
+    background: #707070;
+    border-color: #707070;
 }
 
 .modal__action--negative:hover,
 .modal__action--negative:active {
-  background: #797777;
-  border-color: #ffffff;
+    background: #797777;
+    border-color: #ffffff;
 }
+
+
+
+@media(min-width:48rem) {
+
+
+    #prod-overview h1 {
+        font-size: 2rem;
+    }
+
+
+
+    .plan {
+        display: inline-block;
+        width: 28%;
+        vertical-align: middle;
+        margin: 0 auto;
+        max-width: 18rem;
+        min-width: 15.3rem;
+    }
+
+
+    .plan-highlighted {
+        box-shadow: 3.5px 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .key-feature {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        max-width: 18rem;
+    }
+
+    #key-features>.section_title {
+        font-size: 2rem;
+    }
+
+    #prod-overview {
+        background-attachment: fixed
+    }
+
+}
+
+/* @media(orientation: landscape){#prod-overview{background-attachment:scroll ;}} */

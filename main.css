@@ -280,6 +280,6 @@ h1.section_title {
 
 @media (orientation: landscape) {
   #prod-overview {
-    background-size: cover;
+    background-size: contain;
     background-position: center center; 
     height: 70vh; }}

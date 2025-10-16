@@ -278,4 +278,7 @@ h1.section_title {
 
 }
 
-/* @media(orientation: landscape){#prod-overview{background-attachment:scroll ;}} */
+@media (orientation: landscape) {
+  #prod-overview {
+    background-position: center center; 
+    height: 70vh; }}

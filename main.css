@@ -250,9 +250,10 @@ h1.section_title {
         display: inline-block;
         width: 28%;
         vertical-align: middle;
-        margin: 0 auto;
+        margin: 0 0.1rem;
         max-width: 18rem;
         min-width: 15.3rem;
+        border-radius: 20px;
     }
 
 

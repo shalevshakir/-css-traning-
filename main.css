@@ -6,7 +6,7 @@
     padding: 10px;
     background-origin: border-box;
     background-clip: border-box;
-    background: linear-gradient(to top, rgba(230, 216, 142, 0.6)10%, transparent), url(/image_3.png) center center/cover no-repeat border-box;
+    background: linear-gradient(to top, rgba(230, 216, 142, 0.6)10%, transparent), url(image_3.png) center center/cover no-repeat border-box;
     height: 50vh;
 
     position: relative;

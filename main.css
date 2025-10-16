@@ -278,6 +278,7 @@ h1.section_title {
 
 @media(min-width:48rem) and (hover: hover) {
     #prod-overview {
-        background-attachment: fixed
+        background-attachment: fixed;
+        background-position: top center;
     }
 }

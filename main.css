@@ -107,7 +107,7 @@
     font-weight: bold;
     padding: 3px;
     cursor: pointer;
-    color:black;
+    color: black;
 
 
 }
@@ -272,9 +272,12 @@ h1.section_title {
         font-size: 2rem;
     }
 
-    #prod-overview {
-        background-attachment: fixed
-    }
+
 
 }
 
+@media(min-width:48rem) and (hover: hover) {
+    #prod-overview {
+        background-attachment: fixed
+    }
+}

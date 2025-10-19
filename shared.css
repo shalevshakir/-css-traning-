@@ -31,7 +31,6 @@ body {
 
 .main-header {
     background-color: #212121;
-
     width: 100%;
     padding: 20px 0;
     position: fixed;
@@ -39,7 +38,7 @@ body {
     z-index: 1;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 
 
 }

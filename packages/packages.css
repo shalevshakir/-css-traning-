@@ -17,7 +17,7 @@ main {
 
 .package {
     border: 2px solid white;
-    width: 80%;
+    width: 100%;
     margin-top: 32px;
     border-left: none;
     position: relative;
@@ -109,3 +109,6 @@ main {
     border-left: none;
     box-shadow: 6px 2px 20px 5px rgba(255, 255, 255, 0.747)
 }
+
+
+@media(min-width:48rem){.package{width: 80%;}}
